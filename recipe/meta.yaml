@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -34,8 +34,7 @@ test:
 
 about:
   home: https://github.com/usnistgov/DataModelDict
-  license: OTHER
-  license_family: OTHER
+  license: NIST-Software
   license_file: LICENSE.TXT
   summary: Provides the Python DataModelDict class for creating, accessing and manipulating JSON/XML data structures.
 
